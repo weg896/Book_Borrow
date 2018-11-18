@@ -19,6 +19,31 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Post a Share',
+      url: '/postAShare',
+      icon: 'paper-plane'
+    },
+    {
+      title: 'Create a Request',
+      url: '/createARequest',
+      icon: 'create'
+    },
+    {
+      title: 'Avaliable for Borrow',
+      url: '/availableForBorrow',
+      icon: 'book'
+    },
+    {
+      title: 'User Profile',
+      url: '/userProfile',
+      icon: 'person'
+    },
+    {
+      title: 'About App',
+      url: '/aboutApp',
+      icon: 'information'
     }
   ];
 

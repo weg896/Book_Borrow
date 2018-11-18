@@ -17,7 +17,11 @@ const routes: Routes = [
   },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'userProfile', loadChildren: './user-profile/user-profile.module#UserProfilePageModule' },
-  { path: 'createAccount', loadChildren: './create-account/create-account.module#CreateAccountPageModule' }
+  { path: 'createAccount', loadChildren: './create-account/create-account.module#CreateAccountPageModule' },
+  { path: 'postAShare', loadChildren: './post-ashare/post-ashare.module#PostASharePageModule' },
+  { path: 'createARequest', loadChildren: './create-arequest/create-arequest.module#CreateARequestPageModule' },
+  { path: 'availableForBorrow', loadChildren: './available-for-borrow/available-for-borrow.module#AvailableForBorrowPageModule' },
+  { path: 'aboutApp', loadChildren: './about-app/about-app.module#AboutAppPageModule' }
 ];
 
 @NgModule({
