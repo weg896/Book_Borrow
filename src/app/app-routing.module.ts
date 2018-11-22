@@ -21,7 +21,8 @@ const routes: Routes = [
   { path: 'postAShare', loadChildren: './post-ashare/post-ashare.module#PostASharePageModule' },
   { path: 'createARequest', loadChildren: './create-arequest/create-arequest.module#CreateARequestPageModule' },
   { path: 'availableForBorrow', loadChildren: './available-for-borrow/available-for-borrow.module#AvailableForBorrowPageModule' },
-  { path: 'aboutApp', loadChildren: './about-app/about-app.module#AboutAppPageModule' }
+  { path: 'aboutApp', loadChildren: './about-app/about-app.module#AboutAppPageModule' },
+  { path: 'signup', loadChildren: './signup/signup.module#SignupPageModule' }
 ];
 
 @NgModule({
